@@ -10,7 +10,7 @@ function ApiLab() {
   const [ms, setMs] = useState(null);
 
   const hasKey = Boolean(process.env.REACT_APP_TMDB_KEY);
-  const shownUrl = `https://api.themoviedb.org/3/search/movie?api_key=****&language=th-TH&query=${encodeURIComponent(query)}`;
+  const shownUrl = `https://api.themoviedb.org/3/search/movie?api_key=f9cac362805f209af09fcb0eb29df29b&language=th-TH&query=${encodeURIComponent(query)}`;
 
   async function run(fn) {
     setStatus('loading');
